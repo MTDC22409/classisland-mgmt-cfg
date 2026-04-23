@@ -1,4 +1,13 @@
 {
     "ServerKind": 0,
+    "CoreVersion": "2.0.3.2",
     "OrganizationName": "HSLRGZ"
+    "DisableProfileClassPlanEditing": true,
+    "DisableProfileTimeLayoutEditing": true,
+    "DisableProfileSubjectsEditing": true,
+    "DisableProfileEditing": true,
+    "DisableSettingsEditing": false,
+    "DisableSplashCustomize": true,
+    "DisableDebugMenu": true,
+    "AllowExitManagement": true
 }
