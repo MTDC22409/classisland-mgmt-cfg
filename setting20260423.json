@@ -1,0 +1,862 @@
+{
+  "SelectedProfile": "20260315后高一16课表.json",
+  "IsMainWindowVisible": true,
+  "IsWelcomeWindowShowed": true,
+  "SettingsOverlay": {
+    "WindowDockingLocation": {
+      "@": 1,
+      "5eafe47b-c8d3-4ddd-aefb-080344977a8f": 1,
+      "4a763d3d-653c-4328-a607-dca69eaa2d82": 1
+    },
+    "PrimaryColor": {
+      "@": "#80E0F4FF",
+      "d98f1b53-de33-45f1-82c0-f67f1c9d2648": "#80E0F4FF"
+    },
+    "CurrentComponentConfig": {
+      "@": "Default",
+      "4a763d3d-653c-4328-a607-dca69eaa2d82": "Default"
+    }
+  },
+  "WeatherLongitude": 110.9254,
+  "WeatherLatitude": 21.6633,
+  "WeatherLocationSource": 0,
+  "AutoRefreshWeatherLocation": false,
+  "NoTLSWeatherRequests": false,
+  "SingleWeekStartTime": "2026-03-01T00:00:00+08:00",
+  "MultiWeekRotationOffset": [-1, -1, 0, 0, 3],
+  "MultiWeekRotationMaxCycle": 2,
+  "ClassPrepareNotifySeconds": 60,
+  "IsClassPrepareNotificationEnabled": true,
+  "MiniInfoProviderSettings": {
+
+  },
+  "SelectedMiniInfoProvider": "d9fc55d6-8061-4c21-b521-6b0532ff735f",
+  "ShowDate": true,
+  "HideOnClass": false,
+  "IsClassChangingNotificationEnabled": true,
+  "IsClassOffNotificationEnabled": true,
+  "HideMode": 1,
+  "HiedRules": {
+    "Mode": 0,
+    "IsReversed": false,
+    "Groups": [
+      {
+        "Rules": [
+          {
+            "IsReversed": false,
+            "Id": "classisland.lessons.timeState",
+            "Settings": {
+              "State": 4,
+              "IsActive": false
+            },
+            "IsActive": false
+          }
+        ],
+        "Mode": 0,
+        "IsReversed": false,
+        "IsEnabled": true,
+        "IsActive": false
+      },
+      {
+        "Rules": [
+          {
+            "IsReversed": false,
+            "Id": "extraIsland.rule.todayIs",
+            "Settings": {
+              "Target": 2,
+              "TargetDayOfWeek": 0,
+              "IsActive": false
+            },
+            "IsActive": false
+          },
+          {
+            "IsReversed": true,
+            "Id": "classisland.lessons.timeState",
+            "Settings": {
+              "State": 3,
+              "IsActive": false
+            },
+            "IsActive": false
+          }
+        ],
+        "Mode": 1,
+        "IsReversed": false,
+        "IsEnabled": false,
+        "IsActive": false
+      },
+      {
+        "Rules": [
+          {
+            "IsReversed": false,
+            "Id": "classisland.lessons.currentSubject",
+            "Settings": {
+              "SubjectId": "d18e9906-0210-4f00-9dd6-b919f0dd8287",
+              "IsActive": false
+            },
+            "IsActive": false
+          },
+          {
+            "IsReversed": false,
+            "Id": "classisland.windows.status",
+            "Settings": {
+              "State": 3,
+              "IsActive": false
+            },
+            "IsActive": false
+          }
+        ],
+        "Mode": 1,
+        "IsReversed": false,
+        "IsEnabled": false,
+        "IsActive": false
+      }
+    ],
+    "IsActive": false
+  },
+  "HideOnFullscreen": false,
+  "ExcludedFullscreenWindow": [
+    "explorer"
+  ],
+  "HideOnMaxWindow": false,
+  "IsReportingEnabled": true,
+  "TaskBarIconClickBehavior": 0,
+  "ShowExtraInfoOnTimePoint": true,
+  "ExtraInfoType": 0,
+  "IsCountdownEnabled": true,
+  "CountdownSeconds": 60,
+  "ExtraInfo4ShowSecondsSeconds": 300,
+  "ScheduleSpacing": 1,
+  "ShowCurrentLessonOnlyOnClass": false,
+  "IsNonExactCountdownEnabled": false,
+  "DefaultOnClassTimePointMinutes": 40,
+  "DefaultBreakingTimePointMinutes": 10,
+  "IsSplashEnabled": false,
+  "SplashCustomText": "对党忠诚，不负人民",
+  "SplashCustomLogoSource": "D:\\Program Files\\ClassIsland\\屏幕截图 2025-08-24 115905.png",
+  "ExactTimeServer": "ntp.ntsc.ac.cn",
+  "IsExactTimeEnabled": true,
+  "TimeOffsetSeconds": 9.25,
+  "IsTimeAutoAdjustEnabled": true,
+  "TimeAutoAdjustSeconds": 1.25,
+  "LastTimeAdjustDateTime": "2026-04-24T00:00:00+08:00",
+  "IsWaitForTransientDisabled": true,
+  "AnimationLevel": 0,
+  "IsCriticalSafeMode": true,
+  "ShowDetailedStatusOnSplash": false,
+  "CriticalSafeModeMethod": 0,
+  "AutoDisableCorruptPlugins": true,
+  "CorruptPluginsDisabledLastSession": false,
+  "ReduceProgressAccuracy": true,
+  "AppLastStartedTime": "2026-04-24T06:52:33.7732748+08:00",
+  "IsRefreshingToastEnabled": false,
+  "RefreshingToastThresholdDays": 20,
+  "ShowRefreshingToastOnNextStart": false,
+  "MaxRefreshingToastCounts": 5,
+  "LeftRefreshingToastCounts": 0,
+  "RefreshingToastIsOnboardingGuide": false,
+  "OnboardingToastTitle": "欢迎使用 ClassIsland (/≧▽≦)/",
+  "OnboardingToastBody": "屏幕上的课表是由本大屏课表软件 ClassIsland 显示的。ClassIsland 能一目了然地显示各种信息，并支持高度自定义。要了解如何使用 ClassIsland 吗？",
+  "RefreshingScopes": {
+    "Profile": true,
+    "ProfileClassPlans": true,
+    "ProfileTimeLayouts": false,
+    "Components": true,
+    "Automations": true,
+    "Plugins": true,
+    "ReservedClassPlans": [],
+    "ReservedTimeLayouts": []
+  },
+  "Theme": 0,
+  "PrimaryColor": "#80E0F4FF",
+  "SecondaryColor": "#13C100FF",
+  "ColorSource": 0,
+  "WallpaperColorPlatte": [
+    "#919C28FF",
+    "#6B8D20FF",
+    "#A5CA29FF",
+    "#949E64FF",
+    "#AACB69FF"
+  ],
+  "SelectedPlatteIndex": 0,
+  "IsWallpaperAutoUpdateEnabled": false,
+  "WallpaperAutoUpdateIntervalSeconds": 60,
+  "WallpaperClassName": "",
+  "IsFallbackModeEnabled": true,
+  "UseExperimentColorPickingMethod": false,
+  "TargetLightValue": 0.6,
+  "IsCustomBackgroundColorEnabled": false,
+  "BackgroundColor": "#00FF04FF",
+  "Opacity": 0.6,
+  "Scale": 1.5,
+  "MainWindowFont": "avares://ClassIsland/Assets/Fonts/#HarmonyOS Sans SC, avares://ClassIsland.Core/Assets/Fonts/#FluentSystemIcons-Resizable",
+  "MainWindowFontWeight2": 600,
+  "RadiusX": 0,
+  "RadiusY": 0,
+  "MainWindowSecondaryFontSize": 14,
+  "MainWindowBodyFontSize": 16,
+  "MainWindowEmphasizedFontSize": 18,
+  "MainWindowLargeFontSize": 20,
+  "IsCustomForegroundColorEnabled": false,
+  "CustomForegroundColor": "#23FF00FF",
+  "MainWindowLineVerticalMargin": 5,
+  "IsIslandSeperated": true,
+  "CurrentComponentConfig": "Default",
+  "IsNotificationEnabled": true,
+  "NotificationProvidersEnableStates": {
+    "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": true,
+    "8fbc3a26-6d20-44dd-b895-b9411e3ddc51": true,
+    "7625de96-38aa-4b71-b478-3f156dd9458d": true,
+    "4b12f124-8585-43c7-afc5-7bbb7cbe60d6": true,
+    "b27c0af3-c917-44de-a61d-8010c3f3fb92": true,
+    "9b570bf1-9a32-40c0-9d5d-4ffa69e03a37": true,
+    "534b80f5-8775-a978-95a3-f6a7bc5a1166": true,
+    "a0c99b32-efa4-4843-adf6-54de7c6fcd56": true,
+    "ca0b77b2-fbc3-449f-a14d-b6d4eaa2726c": true,
+    "f377c816-42b1-4d1a-aa69-a67ddd6beb6d": true
+  },
+  "NotificationProvidersPriority": [
+    "08f0d9c3-c770-4093-a3d0-02f3d90c24bc",
+    "7625de96-38aa-4b71-b478-3f156dd9458d",
+    "4b12f124-8585-43c7-afc5-7bbb7cbe60d6",
+    "8fbc3a26-6d20-44dd-b895-b9411e3ddc51",
+    "b27c0af3-c917-44de-a61d-8010c3f3fb92",
+    "9b570bf1-9a32-40c0-9d5d-4ffa69e03a37",
+    "534b80f5-8775-a978-95a3-f6a7bc5a1166",
+    "a0c99b32-efa4-4843-adf6-54de7c6fcd56",
+    "ca0b77b2-fbc3-449f-a14d-b6d4eaa2726c",
+    "f377c816-42b1-4d1a-aa69-a67ddd6beb6d"
+  ],
+  "NotificationProvidersSettings": {
+    "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
+      "IsClassOnNotificationEnabled": false,
+      "IsClassOnPreparingNotificationEnabled": true,
+      "IsClassOffNotificationEnabled": true,
+      "InDoorClassPreparingDeltaTime": 180,
+      "OutDoorClassPreparingDeltaTime": 600,
+      "ClassOnPreparingText": "",
+      "ClassOnPreparingMaskText": "即将上课",
+      "OutdoorClassOnPreparingMaskText": "即将上户外课",
+      "OutdoorClassOnPreparingText": "",
+      "ClassOnMaskText": "上课",
+      "ClassOffMaskText": "课间休息",
+      "ClassOffOverlayText": "",
+      "IsSpeechEnabledOnClassPreparing": false,
+      "IsSpeechEnabledOnClassOn": false,
+      "IsSpeechEnabledOnClassOff": false,
+      "ShowTeacherName": true,
+      "IsActive": false
+    },
+    "8fbc3a26-6d20-44dd-b895-b9411e3ddc51": {
+      "IsEnabled": true,
+      "NotificationMsg": "今天的课程已结束，请同学们有序离开，并关闭所有用电器，将椅子推回到桌子",
+      "IsActive": false
+    },
+    "7625de96-38aa-4b71-b478-3f156dd9458d": {
+      "AlertShowMode": 0,
+      "ForecastShowMode": 0,
+      "IsAlertEnabled": true,
+      "IsForecastEnabled": true,
+      "WeatherAlertSpeed": 6,
+      "IsActive": false
+    },
+    "4b12f124-8585-43c7-afc5-7bbb7cbe60d6": null,
+    "b27c0af3-c917-44de-a61d-8010c3f3fb92": {
+      "Latitude": 28.741,
+      "Longitude": 104.85,
+      "Threshold": 3.5,
+      "Info": "在2026-04-23 15:18:34时，河南安阳市林州市(36.032 113.971)发生3.4级地震，震源深度8km。本地距离1180km，本地烈度0.0。",
+      "EarthquakeInfo": {
+        "Type": "update",
+        "Data": {
+          "Id": "ba4jjhyaqrayy",
+          "EventId": "202604231518.0001",
+          "Updates": 1,
+          "Latitude": 36.032,
+          "Longitude": 113.971,
+          "Depth": 8,
+          "PlaceName": "河南安阳市林州市",
+          "ShockTime": "2026-04-23 15:18:34",
+          "UpdateTime": null,
+          "Magnitude": 3.4,
+          "Province": "北京",
+          "EpiIntensity": 5.1
+        },
+        "Md5": "244d4af5e875d589f549940a40c4128b"
+      },
+      "ServerInfo": "上一个心跳包时间戳：2026-04-24 11:56:28",
+      "IsActive": false
+    },
+    "9b570bf1-9a32-40c0-9d5d-4ffa69e03a37": null,
+    "534b80f5-8775-a978-95a3-f6a7bc5a1166": null,
+    "a0c99b32-efa4-4843-adf6-54de7c6fcd56": null,
+    "ca0b77b2-fbc3-449f-a14d-b6d4eaa2726c": null,
+    "f377c816-42b1-4d1a-aa69-a67ddd6beb6d": null
+  },
+  "NotificationProvidersNotifySettings": {
+    "08f0d9c3-c770-4093-a3d0-02f3d90c24bc": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": false,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    },
+    "8fbc3a26-6d20-44dd-b895-b9411e3ddc51": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": true,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": true,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    },
+    "7625de96-38aa-4b71-b478-3f156dd9458d": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": false,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": true,
+      "IsSettingsEnabled": true,
+      "IsActive": false
+    },
+    "4b12f124-8585-43c7-afc5-7bbb7cbe60d6": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": false,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    },
+    "b27c0af3-c917-44de-a61d-8010c3f3fb92": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": false,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    },
+    "9b570bf1-9a32-40c0-9d5d-4ffa69e03a37": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": true,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": false,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    },
+    "534b80f5-8775-a978-95a3-f6a7bc5a1166": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": false,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    },
+    "a0c99b32-efa4-4843-adf6-54de7c6fcd56": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": false,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": true,
+      "IsSettingsEnabled": true,
+      "IsActive": false
+    },
+    "ca0b77b2-fbc3-449f-a14d-b6d4eaa2726c": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": true,
+      "IsNotificationEffectEnabled": false,
+      "IsNotificationSoundEnabled": true,
+      "NotificationSoundPath": "D:\\开源软件\\教学\\ClassIsland_app_windows_x64_selfContained_folder\\音频\\流浪地球主题音乐 - 阿鲲 (2).mp3",
+      "IsNotificationTopmostEnabled": true,
+      "IsSettingsEnabled": true,
+      "IsActive": false
+    },
+    "f377c816-42b1-4d1a-aa69-a67ddd6beb6d": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": false,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    }
+  },
+  "NotificationChannelsNotifySettings": {
+    "cddfe7ff-b904-4c73-b458-82793b2f66e9": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": true,
+      "NotificationSoundPath": "C:\\Users\\seewo\\Music\\预备曲.mp3",
+      "IsNotificationTopmostEnabled": true,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    },
+    "aff5b9a4-037c-4a71-8563-c9ea87dda75c": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": true,
+      "NotificationSoundPath": "C:\\Users\\seewo\\Music\\上课曲.mp3",
+      "IsNotificationTopmostEnabled": true,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    },
+    "77c9f3fb-0a2a-4b22-bddf-3c333462b2f9": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": false,
+      "IsNotificationSoundEnabled": true,
+      "NotificationSoundPath": "D:\\开源软件\\实验\\ClassIsland_app_windows_x64_selfContained_folder\\音频\\叮咚.mp3",
+      "IsNotificationTopmostEnabled": true,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    },
+    "881aad3d-26fd-4fcf-b6e2-d39a996c59ac": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": false,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    },
+    "7b973ab0-98ee-41aa-bd67-464b8eb011b1": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": false,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    },
+    "88c27c28-fc9e-418f-8a70-ac8d353f2d2c": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": false,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    },
+    "40f73a64-a0d8-480b-8026-f0a71a14d6fb": {
+      "IsNotificationEnabled": true,
+      "IsSpeechEnabled": false,
+      "IsNotificationEffectEnabled": true,
+      "IsNotificationSoundEnabled": false,
+      "NotificationSoundPath": "",
+      "IsNotificationTopmostEnabled": false,
+      "IsSettingsEnabled": false,
+      "IsActive": false
+    }
+  },
+  "IsSystemSpeechSystemExist": false,
+  "IsNetworkConnect": true,
+  "IsSpeechEnabled": false,
+  "SpeechVolume": 0.239583333333333,
+  "SpeechSource": 1,
+  "SelectedSpeechProvider": "classisland.speech.edgeTts",
+  "EdgeTtsVoiceName": "zh-CN-XiaoxiaoNeural",
+  "IsNotificationEffectEnabled": true,
+  "IsNotificationSoundEnabled": true,
+  "NotificationSoundPath": "D:\\开源软件\\教学\\ClassIsland_app_windows_x64_selfContained_folder\\音频\\叮咚.mp3",
+  "IsNotificationTopmostEnabled": true,
+  "NotificationEffectRenderingScale": 0.4,
+  "IsNotificationEffectRenderingScaleAutoSet": true,
+  "AllowNotificationSpeech": true,
+  "AllowNotificationEffect": true,
+  "AllowNotificationSound": true,
+  "AllowNotificationTopmost": true,
+  "NotificationSoundVolume": 0.83,
+  "NotificationSpeechCustomSmgTokenSource": "",
+  "GptSoVitsSpeechSettings": {
+    "PresetName": "高考听力男声",
+    "IsInternal": true,
+    "GptSoVitsServerIp": "highexam-male.tts.wez.ink",
+    "GptSoVitsPort": "80",
+    "GptSoVitsVoiceName": "highexam-male",
+    "GptSoVitsTextLang": "zh",
+    "GptSoVitsRefAudioPath": "template_audio/highexam-male.wav",
+    "GptSoVitsPromptLang": "zh",
+    "GptSoVitsPromptText": "回答听力部分时，请先将答案标在试卷上。",
+    "GptSoVitsTextSplitMethod": "cut5",
+    "GptSoVitsBatchSize": 5
+  },
+  "NotificationUseStandaloneEffectUiThread": false,
+  "IsAutomationEnabled": true,
+  "CurrentAutomationConfig": "Default",
+  "IsAutomationWarningVisible": false,
+  "UpdateMode": 2,
+  "SelectedChannel": "https://install.appcenter.ms/api/v0.1/apps/hellowrc/classisland/distribution_groups/public",
+  "LastCheckUpdateTime": "2026-04-24T06:52:24.8341286+08:00",
+  "LastUpdateStatus": 0,
+  "AutoInstallUpdateNextStartup": false,
+  "UpdateArtifactHash": "7F1316B08269EC0EAFE085DFA03E286C393716C2593F40AFF173E8D8A6D981B3",
+  "SelectedUpdateMirrorV2": "main",
+  "SelectedUpdateChannelV2": "v2-early-tp",
+  "SelectedUpdateChannelV3": "019a1e38-a9d5-773c-9964-fca22a6d9de9",
+  "DebugSubChannelOverride": "",
+  "DebugPublicKeyOverride": "",
+  "DebugPhainonRootUrlOverride": "",
+  "WindowDockingLocation": 1,
+  "IsIgnoreWorkAreaEnabled": true,
+  "WindowDockingOffsetX": 0,
+  "WindowDockingOffsetY": 10,
+  "WindowDockingMonitorIndex": 0,
+  "WindowTopmostRecheckMode": 1,
+  "IsScreenRecordingModeEnabled": false,
+  "WindowLayer": 1,
+  "IsMouseClickingEnabled": false,
+  "UseRawInput": false,
+  "IsMouseInFadingEnabled": true,
+  "IsMouseInFadingReversed": false,
+  "TouchInFadingDurationMs": 3000,
+  "IsCompatibleWindowTransparentEnabled": false,
+  "LastWeatherInfo": {
+    "current": {
+      "feelsLike": {
+        "value": "22",
+        "unit": "℃"
+      },
+      "humidity": {
+        "value": "89",
+        "unit": "%"
+      },
+      "pressure": {
+        "value": "996",
+        "unit": "hPa"
+      },
+      "temperature": {
+        "value": "19",
+        "unit": "℃"
+      },
+      "visibility": {
+        "value": "",
+        "unit": "km"
+      },
+      "weather": "2",
+      "pubTime": "2026-04-24T11:46:56+08:00",
+      "wind": {
+        "direction": {
+          "value": "109.0",
+          "unit": "°"
+        },
+        "speed": {
+          "value": "6.0",
+          "unit": "km/h"
+        }
+      }
+    },
+    "alerts": [],
+    "updateTime": 1777002605026,
+    "forecastDaily": {
+      "precipitationProbability": {
+        "value": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "temperature": {
+        "value": [
+          {
+            "from": "25",
+            "to": "19"
+          },
+          {
+            "from": "32",
+            "to": "20"
+          },
+          {
+            "from": "29",
+            "to": "22"
+          },
+          {
+            "from": "27",
+            "to": "22"
+          },
+          {
+            "from": "27",
+            "to": "21"
+          },
+          {
+            "from": "26",
+            "to": "21"
+          },
+          {
+            "from": "28",
+            "to": "21"
+          },
+          {
+            "from": "29",
+            "to": "20"
+          },
+          {
+            "from": "30",
+            "to": "22"
+          },
+          {
+            "from": "30",
+            "to": "23"
+          },
+          {
+            "from": "31",
+            "to": "25"
+          },
+          {
+            "from": "31",
+            "to": "22"
+          },
+          {
+            "from": "27",
+            "to": "23"
+          },
+          {
+            "from": "30",
+            "to": "23"
+          },
+          {
+            "from": "29",
+            "to": "23"
+          }
+        ]
+      },
+      "weather": {
+        "value": [
+          {
+            "from": "8",
+            "to": "1"
+          },
+          {
+            "from": "1",
+            "to": "1"
+          },
+          {
+            "from": "7",
+            "to": "8"
+          },
+          {
+            "from": "4",
+            "to": "9"
+          },
+          {
+            "from": "8",
+            "to": "9"
+          },
+          {
+            "from": "4",
+            "to": "1"
+          },
+          {
+            "from": "8",
+            "to": "4"
+          },
+          {
+            "from": "2",
+            "to": "7"
+          },
+          {
+            "from": "7",
+            "to": "7"
+          },
+          {
+            "from": "7",
+            "to": "7"
+          },
+          {
+            "from": "7",
+            "to": "2"
+          },
+          {
+            "from": "7",
+            "to": "7"
+          },
+          {
+            "from": "7",
+            "to": "2"
+          },
+          {
+            "from": "7",
+            "to": "7"
+          },
+          {
+            "from": "7",
+            "to": "7"
+          }
+        ]
+      },
+      "sunRiseSet": {
+        "value": [
+          {
+            "from": "2026-04-24T06:10:00+08:00",
+            "to": "2026-04-24T19:00:00+08:00"
+          },
+          {
+            "from": "2026-04-25T06:09:00+08:00",
+            "to": "2026-04-25T19:00:00+08:00"
+          },
+          {
+            "from": "2026-04-26T06:08:00+08:00",
+            "to": "2026-04-26T19:00:00+08:00"
+          },
+          {
+            "from": "2026-04-27T06:07:00+08:00",
+            "to": "2026-04-27T19:01:00+08:00"
+          },
+          {
+            "from": "2026-04-28T06:07:00+08:00",
+            "to": "2026-04-28T19:01:00+08:00"
+          },
+          {
+            "from": "2026-04-29T06:06:00+08:00",
+            "to": "2026-04-29T19:02:00+08:00"
+          },
+          {
+            "from": "2026-04-30T06:05:00+08:00",
+            "to": "2026-04-30T19:02:00+08:00"
+          },
+          {
+            "from": "2026-05-01T06:05:00+08:00",
+            "to": "2026-05-01T19:03:00+08:00"
+          },
+          {
+            "from": "2026-05-02T06:04:00+08:00",
+            "to": "2026-05-02T19:03:00+08:00"
+          },
+          {
+            "from": "2026-05-03T06:03:00+08:00",
+            "to": "2026-05-03T19:03:00+08:00"
+          },
+          {
+            "from": "2026-05-04T06:04:00+08:00",
+            "to": "2026-05-04T19:05:00+08:00"
+          },
+          {
+            "from": "2026-05-05T06:03:00+08:00",
+            "to": "2026-05-05T19:05:00+08:00"
+          },
+          {
+            "from": "2026-05-06T06:03:00+08:00",
+            "to": "2026-05-06T19:06:00+08:00"
+          },
+          {
+            "from": "2026-05-07T06:02:00+08:00",
+            "to": "2026-05-07T19:06:00+08:00"
+          },
+          {
+            "from": "2026-05-08T06:01:00+08:00",
+            "to": "2026-05-08T19:06:00+08:00"
+          }
+        ]
+      }
+    },
+    "forecastHourly": {
+      "temperature": {
+        "value": [19, 20, 22, 23, 24, 25, 25, 24, 24, 23, 22, 22, 21, 21, 21, 20, 20, 20, 21, 21, 22, 24, 26]
+      },
+      "weather": {
+        "value": [1, 1, 2, 2, 2, 2, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+      }
+    },
+    "minutely": {
+      "precipitation": {
+        "value": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "aqi": {
+      "aqi": "38"
+    }
+  },
+  "CityId": "weathercn:101282005",
+  "CityName": "信宜市 (茂名市, 广东, 中国)",
+  "ExcludedWeatherAlerts": [
+    "茂南",
+    "森林",
+    "高州",
+    "化州",
+    "滨海",
+    "雪"
+  ],
+  "WeatherIconId": "classisland.weatherIcons.lucide",
+  "ExpIsExcelImportEnabled": false,
+  "ExpAllowEditingActivatedTimeLayout": false,
+  "DiagnosticFirstLaunchTime": "2024-12-05T18:36:58.0435566+08:00",
+  "DiagnosticStartupCount": 1893,
+  "DiagnosticCrashCount": 0,
+  "DiagnosticLastCrashTime": "0001-01-01T00:00:00",
+  "DiagnosticMemoryKillCount": 1,
+  "DiagnosticLastMemoryKillTime": "2025-02-16T18:43:16.2147923+08:00",
+  "IsAutoBackupEnabled": false,
+  "LastAutoBackupTime": "2025-06-18T06:51:45.7413877+08:00",
+  "BackupFilesSize": "0.00 B",
+  "AutoBackupLimit": 2,
+  "AutoBackupIntervalDays": 7,
+  "OfficialIndexMirrors": {
+    "github": "https://github.com",
+    "ghproxy": "https://ghfast.top/https://github.com",
+    "moeyy": "https://github.moeyy.xyz/https://github.com"
+  },
+  "OfficialSelectedMirror": "github",
+  "PluginIndexes": [],
+  "IgnoreSslForPluginMirrors": true,
+  "LastRefreshPluginSourceTime": "2026-04-21T06:53:50.85661+08:00",
+  "IsPluginMarketWarningVisible": false,
+  "IsPluginsAutoUpdateEnabled": true,
+  "IsPluginsUpdateNotificationEnabled": false,
+  "IsRollingComponentWarningVisible": true,
+  "IsThemeWarningVisible": false,
+  "IsThemeSeparateInfoVisible": true,
+  "IsDebugEnabled": false,
+  "IsDebugOptionsEnabled": false,
+  "IsMainWindowDebugEnabled": false,
+  "DebugAnimationScale": 1,
+  "TimeLayoutEditorIndex": 0,
+  "IsDebugConsoleEnabled": false,
+  "DebugGitHubAuthKey": "",
+  "ContributorsCache": {
+    "Contributors": [],
+    "IsActive": false
+  },
+  "LastAppVersion": "2.0.3.2",
+  "ShowComponentsMigrateTip": false,
+  "IsMigratedFromv1_4": false,
+  "IsProfileEditorClassInfoSubjectAutoMoveNextEnabled": true,
+  "IsSwapMode": false,
+  "ShowEchoCaveWhenSettingsPageLoading": false,
+  "SettingsPagesCachePolicy": 0,
+  "TrustedProfileIds": [
+    "7c684745-6c2b-4c0b-86e1-50351d2358d4",
+    "54b5dd7f-062f-4686-8992-b8a461b2bded"
+  ],
+  "HasEditModeTutorialShown": false,
+  "ClassPlanEditModeIndex": 0,
+  "IsActive": false
+}
