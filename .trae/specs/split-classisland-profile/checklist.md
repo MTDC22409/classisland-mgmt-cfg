@@ -8,3 +8,5 @@
 - [ ] `manifest.json` 原有字段（`ServerKind`、`CoreVersion`、`OrganizationName`、`Disable*` 等）均保留
 - [ ] `20260315后高一16课表.json` 原始文件未被删除
 - [ ] 各 JSON 文件为有效 JSON 格式
+- [ ] 变更已提交到分支 `trae/agent-iFJhSN`
+- [ ] PR 已创建，目标分支为 `main`

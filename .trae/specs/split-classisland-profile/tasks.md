@@ -17,6 +17,12 @@
   - 每个字段为 `ReVersionString` 格式：`{"Value": "<文件名>", "Version": 1}`
   - 保留原有所有字段
 
+- [ ] Task 5: 提交变更并创建 PR
+  - 将所有变更（新增的 `TimeLayouts.json`、`ClassPlans.json`、`Subjects.json` 和修改后的 `manifest.json`）git commit
+  - 推送到远程分支 `trae/agent-iFJhSN`
+  - 创建 Pull Request 到 `main` 分支
+
 # Task Dependencies
 - Task 1、Task 2、Task 3 可并行执行
 - Task 4 依赖于 Task 1、2、3 完成（需要知道文件名）
+- Task 5 依赖于 Task 1-4 全部完成

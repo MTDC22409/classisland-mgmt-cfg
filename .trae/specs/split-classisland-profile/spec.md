@@ -9,6 +9,7 @@
 - 从 `20260315后高一16课表.json` 中提取 `Subjects` 部分，创建 `Subjects.json`
 - 修改 `manifest.json`，添加 `ClassPlanSource`、`TimeLayoutSource`、`SubjectsSource` 字段
 - 原文件 `20260315后高一16课表.json` 保留不删除
+- 将变更提交到 `trae/agent-iFJhSN` 分支并创建 PR 到 `main`
 
 ## Impact
 - Affected specs: 集控清单配置
@@ -59,3 +60,10 @@
 #### Scenario: 原始文件保留
 - **WHEN** 拆分完成后
 - **THEN** `20260315后高一16课表.json` 仍然存在于工作目录中
+
+### Requirement: 提交 PR
+系统 SHALL 将所有变更（新增的拆分文件和修改后的 manifest.json）提交到 `trae/agent-iFJhSN` 分支，并创建 Pull Request 到 `main` 分支。
+
+#### Scenario: 成功创建 PR
+- **WHEN** 所有拆分和修改操作完成
+- **THEN** 变更已推送到 `trae/agent-iFJhSN`，PR 已创建指向 `main`
