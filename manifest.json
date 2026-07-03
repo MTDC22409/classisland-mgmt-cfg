@@ -1,7 +1,7 @@
 {
     "ServerKind": 0,
     "CoreVersion": "2.0.3.2",
-    "OrganizationName": "HSLRGZ"
+    "OrganizationName": "HSLRGZ",
     "DisableProfileClassPlanEditing": true,
     "DisableProfileTimeLayoutEditing": true,
     "DisableProfileSubjectsEditing": true,
@@ -9,5 +9,17 @@
     "DisableSettingsEditing": false,
     "DisableSplashCustomize": true,
     "DisableDebugMenu": true,
-    "AllowExitManagement": true
+    "AllowExitManagement": true,
+    "ClassPlanSource": {
+        "Value": "ClassPlans.json",
+        "Version": 1
+    },
+    "TimeLayoutSource": {
+        "Value": "TimeLayouts.json",
+        "Version": 1
+    },
+    "SubjectsSource": {
+        "Value": "Subjects.json",
+        "Version": 1
+    }
 }
